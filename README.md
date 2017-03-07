@@ -14,7 +14,7 @@ A lightweight Scrabble backend. Played via CLI. Follows [Hasbro rules] (http://s
 >> python main.py
 ```
 
-## Running the tests
+## Testing
 ```
 >> pip install py.test
 >> py.test --ignore venv
