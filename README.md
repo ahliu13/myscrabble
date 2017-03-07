@@ -6,6 +6,9 @@ A lightweight Scrabble backend. Played via CLI. Follows [Hasbro rules] (http://s
 ```
 >> virtualenv venv
 >> source venv/bin/activate
+>> touch scrabble/__init__.py
+>> touch scrabble/lib/__init__.py
+>> touch scrabble/tests/__init__.py
 >> pip install -r requirements.txt
 >> python setup.py develop
 >> python main.py
