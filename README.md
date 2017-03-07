@@ -1,6 +1,6 @@
 # CLI Scrabble
 
-A lightweight Scrabble backend. Played via CLI. Follows [Hasbro rules] [(http://scrabble.hasbro.com/en-us)] unless otherwise specified.
+A lightweight Scrabble backend. Played via CLI. Follows [Hasbro rules] (http://scrabble.hasbro.com/en-us) unless otherwise specified.
 
 ## Getting Started
 ```
