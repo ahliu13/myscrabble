@@ -240,7 +240,7 @@ class Board:
         stemming_word_indecies = self.get_indecies_stemming_words(letters, indecies)
         for stem_word_index_list in stemming_word_indecies:
             stem_word_score = 0
-            word_mults_stem = self.get_word_multiplers(stem_word_index_list)
+            word_mults_stem = self.get_word_multipliers(stem_word_index_list)
             for (row, col) in stem_word_index_list:
                 letter_score = self.score_letter(letters, indecies, r, c)
                 stem_word_score += letter_score
