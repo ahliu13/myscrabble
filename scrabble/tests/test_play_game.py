@@ -70,9 +70,8 @@ class PlayGameTestCase(TestCase):
         return_value='(5,7) (6,7) (7,7)'
     )
     def test_play_letters_b(self, letters, indecies):
-        # Initial Move of Hello
+        # Initial Move of WAG
         g = Game(['Erica'])
         g.play_letters()
         assert(g.game_done is False)
         assert(g.curr_player.name == 'Erica')
-        assert(g.players[0].score == 14)
