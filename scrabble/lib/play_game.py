@@ -87,6 +87,9 @@ class Game:
                 score = self.board.score_play(letters, indecies)
                 self.curr_player.score += score
                 self.board.place_tiles(letters, indecies)
+                for letter in letters:
+                    self.curr_player.remove_letter(letter)
+                # remove the tiles from the player tray
                 self.refill_curr_player_tray()
                 is_play_done = True
                 print ''
