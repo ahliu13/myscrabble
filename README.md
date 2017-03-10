@@ -4,10 +4,7 @@ A lightweight Scrabble backend. Played via CLI. Follows [Hasbro rules] (http://s
 
 ## Getting Started
 ```
->> virtualenv venv
->> source venv/bin/activate
->> pip install -r requirements.txt
->> python setup.py develop
+>> sh ./setup.sh
 >> python main.py
 ```
 
