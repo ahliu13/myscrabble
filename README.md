@@ -61,6 +61,11 @@ of checking. If a player suggests a list of letters and indecies of which he/she
 - Refactor the board class to make it more readable (it's currently very long)
 - Ensure capital letters and non-capital are treated the same.
 - Adding funcionality for blank tiles. Currently, we have 2 extra A's rather than the blank tiles. To implement, we would need to update the bag initialization as well as the board logic.
+- Usability Improvements:
+-- Making it easier to input coordinates - perhaps enter a starting point, then select vertical or horizontal
+-- Letter inputs as TANK vs. T A N K
+-- Easier reading of the vertical coordinates - label the vertical dimension
+
 See comments in `board.py` for more information.
 
 ## Acknowledgments
