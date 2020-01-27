@@ -58,7 +58,7 @@ of checking. If a player suggests a list of letters and indecies of which he/she
 ## Future Work
 
 - Refactor intial player selection to align with Hasbro rules - right now we select the first player that enters their name, while we want to select more randomly.
-- Refactor the board class to make it more readable (it's currently very long)
+- Refactor the board class to make it more readable (it's currently very long).
 - Ensure capital letters and non-capital are treated the same.
 - Adding funcionality for blank tiles. Currently, we have 2 extra A's rather than the blank tiles. To implement, we would need to update the bag initialization as well as the board logic.
 - Usability Improvements:
